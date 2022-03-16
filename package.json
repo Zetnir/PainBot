@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Zetnir/PainBot/issues"
   },
-  "homepage": "https://github.com/Zetnir/PainBot#readme"
+  "homepage": "https://github.com/Zetnir/PainBot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
 }
