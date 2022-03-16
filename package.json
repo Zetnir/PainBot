@@ -1,0 +1,19 @@
+{
+  "name": "pain-bot",
+  "version": "1.0.0",
+  "description": "Bot discord qui donne des pains en échange d'xp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zetnir/PainBot.git"
+  },
+  "author": "Zetnir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zetnir/PainBot/issues"
+  },
+  "homepage": "https://github.com/Zetnir/PainBot#readme"
+}
