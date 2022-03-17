@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Bot discord qui donne des pains en échange d'xp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "deploy-command": "node --experimental-json-modules deploy-command.js",
+    "start": "nodemon --experimental-json-modules index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +20,12 @@
   },
   "homepage": "https://github.com/Zetnir/PainBot#readme",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "eslint": "^8.11.0"
